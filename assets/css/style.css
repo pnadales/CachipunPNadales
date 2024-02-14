@@ -8,3 +8,8 @@ button {
     width: 50%;
     background-color: chocolate;
 }
+
+p,
+#comenzar {
+    text-align: center;
+}
