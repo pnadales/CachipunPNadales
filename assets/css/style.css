@@ -1,0 +1,10 @@
+img {
+    object-fit: contain;
+    width: 8rem;
+    height: 8rem;
+}
+
+button {
+    width: 50%;
+    background-color: chocolate;
+}

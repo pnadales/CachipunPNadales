@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Cachipun</title>
+</head>
+
+<body class="bg-dark">
+    <header>
+        <div class="container">
+            <h1 class="text-warning d-flex justify-content-center">¡CA-CHI-PÚN!</h1>
+            <h2 class="text-warning-emphasis d-flex justify-content-center">Prueba tu suerte e intenta derrotar a la
+                máquina!</h2>
+            <hr class="text-warning">
+        </div>
+    </header>
+    <section class="juego container">
+        <div class="row">
+            <button class="col-12 col-md-4" type="submit" onclick="contador=cachipun('papel', NumeroJugadas, contador)">
+                <img src="assets/img/papel.png" alt=""></button>
+            <button class="col-12 col-md-4" type="submit"
+                onclick="contador=cachipun('piedra', NumeroJugadas, contador)">
+                <img src="assets/img/piedra.png" alt=""></button>
+            <button class="col-12 col-md-4" type="submit"
+                onclick="contador=cachipun('tijera', NumeroJugadas, contador)">
+                <img src="assets/img/tijera.png" alt=""></button>
+
+        </div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
